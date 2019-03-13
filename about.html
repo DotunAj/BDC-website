@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="assets/images/logo.png" alt="BDC" class="logo" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a class="current" href="#">About Us</a></li>
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">Our Sponsors</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor
+        urna nunc id cursus metus aliquam eleifend. Aliquet porttitor lacus
+        luctus accumsan tortor. Viverra orci sagittis eu volutpat odio facilisis
+        mauris sit. Enim tortor at auctor urna nunc id. Sit amet commodo nulla
+        facilisi nullam vehicula ipsum a arcu. Eleifend quam adipiscing vitae
+        proin sagittis nisl. Sed turpis tincidunt id aliquet risus feugiat in
+        ante metus. Sit amet consectetur adipiscing elit pellentesque habitant
+        morbi. Vitae nunc sed velit dignissim sodales ut eu.
+
+        <br />
+        <br />
+        <br />
+
+        Vitae nunc sed velit dignissim sodales ut eu sem. Morbi tincidunt ornare
+        massa eget egestas. Eu feugiat pretium nibh ipsum consequat nisl vel.
+        Consequat id porta nibh venenatis cras. Et egestas quis ipsum
+        suspendisse ultrices gravida. Id leo in vitae turpis massa sed elementum
+        tempus. Tincidunt id aliquet risus feugiat in ante metus dictum at. A
+        iaculis at erat pellentesque. Imperdiet massa tincidunt nunc pulvinar
+        sapien et ligula ullamcorper.
+      </p>
+    </section>
+    <footer>
+      <div>
+        <a href="#">
+          <span>Join Us on slack</span>
+          <img src="assets/images/slack.png" alt="slack" />
+        </a>
+      </div>
+      <div>
+        <a href="#"
+          ><span>Connect with us on Twitter</span>
+          <img src="assets/images/twitter.png" alt="twitter"
+        /></a>
+      </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("close");
+        menu.classList.toggle("open-menu");
+      });
+    </script>
+  </body>
+</html>
