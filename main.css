@@ -43,11 +43,8 @@ header {
 .nav .current:after {
   background-color: #fff;
   content: "";
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   height: 2px;
-  max-width: 80px;
 }
 
 .hamburger {

@@ -11,6 +11,10 @@ section {
   color: #fff;
 }
 
+section p span {
+  font-weight: bold;
+}
+
 @media (max-width: 1080px) {
   section {
     padding: 1.5em;
