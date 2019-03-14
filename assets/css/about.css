@@ -7,8 +7,13 @@ html {
 
 /* Section Style */
 section {
-  padding: 40px 107px;
+  padding: 40px 130px;
   color: #fff;
+}
+
+section p {
+  padding-right: 50px;
+  font-size: 1.2em;
 }
 
 @media (max-width: 1080px) {
@@ -25,5 +30,6 @@ section {
   section p {
     font-size: 1em;
     margin-right: 0;
+    padding: 0;
   }
 }
